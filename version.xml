@@ -7,6 +7,18 @@
        
 	-->
 	<item>
+		<version>3.4.2.0</version> 
+		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.4.2.zip</url>
+		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/main/changelog.html</changelog>
+		<mandatory>false</mandatory>
+	</item>
+	
+	<!-- Sürüm Notları Formatı:
+		- Tarih: GG.AA.YYYY
+		- Not: Yapılan değişikliklerin kısa açıklaması.
+       
+	-->
+	<item>
 		<version>3.4.1.0</version>
 		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.4.1.zip</url>
 		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/main/changelog.html</changelog>
