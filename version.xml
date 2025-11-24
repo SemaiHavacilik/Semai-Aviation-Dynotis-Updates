@@ -7,7 +7,7 @@
        
 	-->
 	<item>
-		<version>3.4.2.0</version>
+		<version>3.4.3.0</version>
 		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.4.3.msi</url>
 		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/main/changelog.html</changelog>
 		<args>/i "%1" /qb</args>
