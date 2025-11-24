@@ -8,4 +8,30 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Setups\Dynotis Software v3.3.7.zip" />
+    <None Remove="Setups\Dynotis Software v3.3.8.zip" />
+    <None Remove="Setups\Dynotis Software v3.3.9.zip" />
+    <None Remove="Setups\Dynotis Software v3.4.0.zip" />
+    <None Remove="Setups\Dynotis Software v3.4.1.zip" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Setups\Dynotis Software v3.3.7.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Setups\Dynotis Software v3.3.8.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Setups\Dynotis Software v3.3.9.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Setups\Dynotis Software v3.4.0.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Setups\Dynotis Software v3.4.1.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>
