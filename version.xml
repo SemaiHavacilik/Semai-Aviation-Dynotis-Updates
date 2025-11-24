@@ -8,7 +8,7 @@
 	-->
 	<item>
 		<version>3.4.2.0</version>
-		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.4.2.zip</url>
+		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.4.2.msi</url>
 		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/main/changelog.html</changelog>
 		<mandatory>false</mandatory>
 	</item>
@@ -20,7 +20,7 @@
 	-->
 	<item>
 		<version>3.4.1.0</version>
-		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.4.1.zip</url>
+		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.4.1.msi</url>
 		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/main/changelog.html</changelog>
 		<mandatory>false</mandatory>
 	</item>
@@ -32,7 +32,7 @@
 	-->
 	<item>
 		<version>3.4.0.0</version>
-		<url>https://sirketadi.sharepoint.com/.../setup_v3.4.0.zip?download=1</url>
+		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.4.0.msi</url>
 		<changelog>https://raw.githubusercontent.com/Kullanici/Repo/main/changelog.html</changelog>
 		<mandatory>false</mandatory>
 	</item>
@@ -44,7 +44,7 @@
 	-->
 	<item>
 		<version>3.0.0.0</version>
-		<url>https://sirketadi.sharepoint.com/.../setup_v3.0.0.zip?download=1</url>
+		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.0.0.msi</url>
 		<changelog>https://raw.githubusercontent.com/Kullanici/Repo/main/changelog.html</changelog>
 		<mandatory>false</mandatory>
 	</item>
@@ -56,7 +56,7 @@
 	-->
 	<item>
 		<version>2.0.0.0</version>
-		<url>https://sirketadi.sharepoint.com/.../setup_v2.0.0.zip?download=1</url>
+		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v2.0.0.msi</url>
 		<changelog>https://raw.githubusercontent.com/Kullanici/Repo/main/changelog.html</changelog>
 		<mandatory>false</mandatory>
 	</item>
@@ -68,7 +68,7 @@
 	-->
 	<item>
 		<version>1.0.0.0</version>
-		<url>https://sirketadi.sharepoint.com/.../setup_v1.0.0.zip?download=1</url>
+		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v1.0.0.msi</url>
 		<changelog>https://raw.githubusercontent.com/Kullanici/Repo/main/changelog.html</changelog>
 		<mandatory>false</mandatory>
 	</item>
