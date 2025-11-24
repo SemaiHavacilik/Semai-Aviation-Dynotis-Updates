@@ -59,9 +59,9 @@ class Program
                     Console.WriteLine($"İndirme Linki: {latestUpdate.Url}");
 
                     // 4. İndirme Testi
-                    Console.WriteLine("\nİndirme testi başlatılıyor (Google Drive)...");
+                    Console.WriteLine("\nİndirme testi başlatılıyor (Github)...");
 
-                    // Google Drive bazen yönlendirme yapar, HttpClient bunu otomatik takip eder ama kontrol edelim.
+                    // Github bazen yönlendirme yapar, HttpClient bunu otomatik takip eder ama kontrol edelim.
                     var response = await client.GetAsync(latestUpdate.Url, HttpCompletionOption.ResponseHeadersRead);
 
                     if (response.IsSuccessStatusCode)
@@ -70,7 +70,7 @@ class Program
                         Console.WriteLine($"Dosya Tipi: {response.Content.Headers.ContentType}");
                         long? size = response.Content.Headers.ContentLength;
 
-                        // Google Drive bazen boyutu header'da vermez, sorun değil.
+                        // Github bazen boyutu header'da vermez, sorun değil.
                         Console.WriteLine($"Dosya Boyutu: {(size.HasValue ? (size / 1024 / 1024) + " MB" : "Bilinmiyor (Chunked Transfer)")}");
                         Console.WriteLine("Test tamamlandı.");
                     }
