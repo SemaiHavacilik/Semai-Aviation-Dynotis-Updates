@@ -7,22 +7,9 @@
        
 	-->
 	<item>
-		<version>3.4.2.0</version>
-		<!-- Google Drive Virüs uyarısını geçmek için '&confirm=t' eklendi -->
-		<url>https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1nmqEvjE1AMawdeUd50FDWmBPOXJ9h-hO</url>
-		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/main/changelog.html</changelog>
-		<mandatory>false</mandatory>
-	</item>
-
-	<!-- Sürüm Notları Formatı:
-		- Tarih: GG.AA.YYYY
-		- Not: Yapılan değişikliklerin kısa açıklaması.
-       
-	-->
-	<item>
 		<version>3.4.1.0</version>
 		<!-- Google Drive Virüs uyarısını geçmek için '&confirm=t' eklendi -->
-		<url>https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1nmqEvjE1AMawdeUd50FDWmBPOXJ9h-hO</url>
+		<url>https://github.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/blob/master/Setups/Dynotis%20Software%20v3.4.1.zip</url>
 		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/main/changelog.html</changelog>
 		<mandatory>false</mandatory>
 	</item>
