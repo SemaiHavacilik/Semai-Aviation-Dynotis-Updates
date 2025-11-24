@@ -1,0 +1,58 @@
+﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+<deploy>
+
+	<!-- 
+        Tarih: 24.11.2025
+        Not: Kritik güvenlik güncellemesi yapıldı.
+    -->
+	<item>
+		<version>3.4.2.0</version>
+		<url>https://semaihavacilik.sharepoint.com/:u:/s/SEMAIAviation-DocumentationHub/IQDt9tGpiqo-SqsPMT5iWPAZAQddFm6glWgwG1dQsKLyfwU?e=9B5b1t?&amp;download=1</url>
+		<changelog>https://raw.githubusercontent.com/Kullanici/Repo/main/changelog.html</changelog>
+		<mandatory>false</mandatory>
+	</item>
+
+	<!-- 
+        Tarih: 20.11.2025
+        Not: Kritik güvenlik güncellemesi yapıldı.
+    -->
+	<item>
+		<version>3.4.0.0</version>
+		<url>https://sirketadi.sharepoint.com/.../setup_v3.4.0.zip?download=1</url>
+		<changelog>https://raw.githubusercontent.com/Kullanici/Repo/main/changelog.html</changelog>
+		<mandatory>false</mandatory>
+	</item>
+
+	<!-- 
+        Tarih: 10.11.2025
+        Not: Kritik güvenlik güncellemesi yapıldı.
+    -->
+	<item>
+		<version>3.0.0.0</version>
+		<url>https://sirketadi.sharepoint.com/.../setup_v3.0.0.zip?download=1</url>
+		<changelog>https://raw.githubusercontent.com/Kullanici/Repo/main/changelog.html</changelog>
+		<mandatory>false</mandatory>
+	</item>
+
+	<!-- 
+        Tarih: 10.10.2025
+        Not: Arayüz yenilendi.
+    -->
+	<item>
+		<version>2.0.0.0</version>
+		<url>https://sirketadi.sharepoint.com/.../setup_v2.0.0.zip?download=1</url>
+		<changelog>https://raw.githubusercontent.com/Kullanici/Repo/main/changelog.html</changelog>
+		<mandatory>false</mandatory>
+	</item>
+
+	<!-- 
+        İLK SÜRÜM (ARCHIVE)
+    -->
+	<item>
+		<version>1.0.0.0</version>
+		<url>https://sirketadi.sharepoint.com/.../setup_v1.0.0.zip?download=1</url>
+		<changelog>https://raw.githubusercontent.com/Kullanici/Repo/main/changelog.html</changelog>
+		<mandatory>false</mandatory>
+	</item>
+
+</deploy>
