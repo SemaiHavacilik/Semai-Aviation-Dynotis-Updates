@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>Semai_Aviation_Dynotis_Updates</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>enable</Nullable> 
   </PropertyGroup>
 
   <ItemGroup>
