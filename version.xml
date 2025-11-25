@@ -9,7 +9,7 @@
 	<item>
 		<version>3.4.3.0</version>
 		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.4.3.msi</url>
-		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/main/changelog.html</changelog>
+		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/changelog.html</changelog>
 		<args>/i "%1" /qb</args>
 		<mandatory>false</mandatory>
 	</item>
@@ -22,7 +22,7 @@
 	<item>
 		<version>3.4.2.0</version>
 		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.4.2.msi</url>
-		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/main/changelog.html</changelog>
+		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/changelog.html</changelog>
 		<args>/i "%1" /qb</args>
 		<mandatory>false</mandatory>
 	</item>
@@ -35,7 +35,7 @@
 	<item>
 		<version>3.4.1.0</version>
 		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.4.1.msi</url>
-		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/main/changelog.html</changelog>
+		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/changelog.html</changelog>
 		<mandatory>false</mandatory>
 	</item>
 	
