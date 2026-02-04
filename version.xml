@@ -1,5 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <deploy>
+
+	<!-- Sürüm Notları Formatı:
+		- Tarih: GG.AA.YYYY
+		- Not: Yapılan değişikliklerin kısa açıklaması.
+       
+	-->
+	<item>
+		<version>3.5.0.0</version>
+		<url>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/Setups/Dynotis%20Software%20v3.5.1.msi</url>
+		<changelog>https://raw.githubusercontent.com/SemaiHavacilik/Semai-Aviation-Dynotis-Updates/master/changelog.html</changelog>
+		<mandatory>false</mandatory>
+	</item>
 	
 	<!-- Sürüm Notları Formatı:
 		- Tarih: GG.AA.YYYY
