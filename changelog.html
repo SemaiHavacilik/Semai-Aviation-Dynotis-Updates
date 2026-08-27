@@ -1,6 +1,56 @@
 ﻿<html>
 <body style="font-family: 'Segoe UI', sans-serif;">
 
+
+
+    <!-- TÜRKÇE KISIM -->
+    <div lang="tr">
+        <h2>Yenilikler - v3.7.0</h2>
+        <ul>
+            <li><b>Motor ve Titreşim Güvenliği:</b> Maksimum RPM kontrolü, tehlikeli titreşimlerde PWM artışını engelleme, kontrollü kademeli durdurma ve cihaz modeline uygun hızlanma sınırları ile test güvenliği güçlendirildi.</li>
+            <li><b>Ölçüm Ofset Desteği:</b> Akım, voltaj ve sıcaklık ölçümlerine ham veriyi değiştirmeden güvenli düzeltme ofsetleri uygulanabilir hale getirildi.</li>
+            <li><b>Analiz Panosu Geliştirildi:</b> Büyük test kayıtlarında yükleme ilerlemesi ve iptal desteği eklendi; veri işleme performansı artırıldı, RPM filtreleri ve grafik kontrolleri geliştirildi.</li>
+            <li><b>UIUC Online Referansları:</b> RPM Eğrileri analizine UIUC statik pervane referansları eklendi; Ct, Cq, Cp, itki ve tork sonuçları doğrudan referans verileriyle karşılaştırılabilir hale getirildi.</li>
+            <li><b>Garanti ve Destek Sistemi:</b> Ayarlar ekranına garanti dokümanı ve teknik destek paketi oluşturma araçları eklendi. Test kayıtları ve ilgili destek verileri kaynak dosyalar silinmeden paketlenebilir.</li>
+            <li><b>Alan Yardım Rehberleri:</b> Pervane, motor ve teorik hesap parametrelerine açıklamalar, örnek girişler ve kullanım ipuçları eklenerek teknik alanların daha anlaşılır kullanılması sağlandı.</li>
+            <li><b>Çoklu Ekran ve Arayüz İyileştirmeleri:</b> Ana pencere, açılır pencereler ve dosya seçim ekranlarının çoklu monitör ve farklı DPI yapılandırmalarındaki konumlandırması geliştirildi; sensör birimleri dar ekranlarda daha kompakt hale getirildi.</li>
+        </ul>
+
+        <h3>Teknik Servis ve Geliştiriciler</h3>
+        <ul>
+            <li><b>Güvenlik Verileri:</b> Tamamlanan testler için bağımsız ve korumalı Evidence Vault kayıt sistemi eklendi; teknik inceleme kayıtları kontrollü şekilde saklanabilir ve ZIP olarak dışa aktarılabilir.</li>
+            <li><b>Küresel İzleme:</b> Müşteri ve cihaz aktivite takibi Teknik Hizmetler bölümüne taşındı; kalıcı aktivite kayıtları, cihaz kimlik bilgileri ve Dünya Taraması desteği eklendi.</li>
+            <li><b>Cihaz Kimlik ve Kalibrasyon Bilgileri:</b> Firmware, donanım sürümü, garanti, balancer ve son aktif bilgileri geliştirildi; kalibrasyon kayıtlarında donanım sürümü desteği genişletildi.</li>
+            <li><b>Bağlantı ve Cihaz Yönetimi:</b> USB bağlantı kopmaları, cihaz kaldırma ve seri port kapatma işlemlerindeki yarış durumları iyileştirilerek bağlantı kararlılığı artırıldı.</li>
+            <li><b>Dynamic Balancer Lisans Yönetimi:</b> Lisanslı cihazlarda Balancer özelliğinin cihaz keşfi sırasında otomatik etkinleştirilebilmesi için yeni lisans kontrol akışı eklendi.</li>
+            <li><b>Yerelleştirme ve Performans:</b> Türkçe, İngilizce, İspanyolca ve Hintçe metinler genişletildi; kullanılmayan analiz işlemleri ve arka plan görevleri sayfa yaşam döngüsüne göre durdurularak kaynak kullanımı optimize edildi.</li>
+        </ul>
+    </div>
+
+    <!-- İNGİLİZCE KISIM -->
+    <div lang="en">
+        <h2>Changelog - v3.7.0</h2>
+        <ul>
+            <li><b>Motor & Vibration Safety:</b> Test safety has been strengthened with maximum RPM validation, PWM increase blocking during dangerous vibration, controlled step-down stopping, and model-based acceleration limits.</li>
+            <li><b>Measurement Offset Support:</b> Safe correction offsets can now be applied to current, voltage, and temperature measurements without modifying the underlying raw sensor data.</li>
+            <li><b>Improved Analysis Dashboard:</b> Added loading progress and cancellation for large test records, improved data processing performance, and enhanced RPM filters and chart controls.</li>
+            <li><b>UIUC Online References:</b> UIUC static propeller references are now available in RPM Curves, allowing Ct, Cq, Cp, thrust, and torque results to be compared directly with reference data.</li>
+            <li><b>Warranty & Support System:</b> Warranty documentation and technical support package tools have been added to Settings. Test records and related support data can be packaged without deleting the original source files.</li>
+            <li><b>Field Help Guides:</b> Propeller, motor, and theoretical calculation parameters now include explanations, example values, and usage tips for clearer technical data entry.</li>
+            <li><b>Multi-Monitor & Interface Improvements:</b> Main windows, dialogs, and file pickers now behave more reliably across multiple monitors and different DPI configurations, while sensor units remain compact on narrow layouts.</li>
+        </ul>
+
+        <h3>Technical Service & Developers</h3>
+        <ul>
+            <li><b>Security Data:</b> Added an independent protected Evidence Vault for completed tests, allowing technical investigation records to be retained and exported as controlled ZIP packages.</li>
+            <li><b>Global Monitoring:</b> Customer and device activity tracking has been moved into Technical Services with persistent activity records, device identity details, and World Scan support.</li>
+            <li><b>Device Identity & Calibration Information:</b> Firmware, hardware version, warranty, balancer, and last-active information have been expanded, with improved hardware-version support in calibration records.</li>
+            <li><b>Connection & Device Management:</b> Improved handling of USB disconnects, device removal, serial-port disposal, and related race conditions for greater connection stability.</li>
+            <li><b>Dynamic Balancer License Management:</b> Added an automatic license activation workflow for supported licensed devices during device discovery.</li>
+            <li><b>Localization & Performance:</b> Turkish, English, Spanish, and Hindi resources were expanded, while inactive analysis operations and background tasks are now paused according to page lifecycle to reduce unnecessary resource usage.</li>
+        </ul>
+    </div>
+
     <!-- TÜRKÇE KISIM -->
     <div lang="tr">
         <h2>Yenilikler - v3.6.9</h2>
