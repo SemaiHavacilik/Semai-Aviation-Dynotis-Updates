@@ -1,6 +1,54 @@
 ﻿<html>
 <body style="font-family: 'Segoe UI', sans-serif;">
 
+    <!-- TÜRKÇE KISIM -->
+
+    <div lang="tr">
+        <h2>Yenilikler - v3.7.1</h2>
+        <ul>
+            <li><b>Gelişmiş Titreşim İzleme:</b> İvmeölçer verileri artık X, Y ve Z eksenlerinde bağımsız olarak değerlendirilir. Canlı grafiklere İvme/Titreşim görünümü, eksen değerleri ve cihaz montaj yönü bilgileri eklendi; titreşim güvenliği en kritik ekseni dikkate alacak şekilde geliştirildi.</li>
+            <li><b>ESC Motor Kontrolü ve Güvenlik:</b> Manuel PWM azaltımları artık ani düşüş yerine kontrollü rampa ile gerçekleştirilir. Kontrollü Durdur ve Acil Durdur işlevleri ayrıldı; cihaz pasifleştirildiğinde motor kontrolü otomatik olarak kilitlenerek PWM güvenli minimum seviyeye çekilir.</li>
+            <li><b>Daha Hızlı Test Geçmişi:</b> Büyük test arşivlerinin taranması arka plana taşındı. Analiz Panosu, Data Logger, SyncHub, In-Flight ve ilgili kayıt ekranlarına yükleme ilerlemesi eklendi; çok sayıda kayıt bulunan sistemlerde arayüz akıcılığı geliştirildi.</li>
+            <li><b>Birim Ayarları ve Limit Senkronizasyonu:</b> Seçilen ölçüm birimleri Limit Parametreleri ekranındaki değer ve etiketlere anında uygulanır. Birim tercihleri artık kaydedilerek sonraki kullanımlarda otomatik olarak geri yüklenir.</li>
+            <li><b>Dynamic Balancer Arayüzü:</b> 2 ve 3 kanatlı balans iş akışlarının yerleşimi, kaydırma davranışı, pervane görselleri ve titreşim trendi grafiklerinin okunabilirliği geliştirildi.</li>
+            <li><b>Arayüz ve Çoklu Ekran Kararlılığı:</b> Arka planda veya farklı monitörde açılan uyarı ve onay pencerelerinin uygulamayı kilitli göstermesine neden olabilen sorunlar giderildi. Diyalogların doğru ekranda ve uygulamanın önünde açılması daha güvenilir hale getirildi.</li>
+            <li><b>Analiz ve Kullanım Rehberleri:</b> RPM Eğrileri rehberi; kararlı durum analizi, filtre parametreleri, formüller, güven/R² bilgileri ve önerilen çalışma aralıklarıyla genişletildi. Canlı grafik değerleri ve ivmeölçer eksen rehberlerinin okunabilirliği artırıldı.</li>
+        </ul>
+
+        <h3>Teknik Servis ve Geliştiriciler</h3>
+        <ul>
+            <li><b>Kalibrasyon Canlı Analog:</b> Analog sensör değerleri µV, mV ve V olarak eş zamanlı görüntülenebilir hale getirildi. İtki ve tork kanallarına ±1.25 V bipolar doluluk göstergesi ile kompakt Ham/Net görünüm seçimi eklendi.</li>
+            <li><b>Cihaz Diagnostikleri:</b> Desteklenen firmware sürümlerinde Cihaz Bilgisi ekranına besleme voltajı, MCU sıcaklığı ve loadcell, barometre, motor sıcaklığı, ESC sıcaklığı, CAN ve Balancer modülleri için diagnostik durum göstergeleri eklendi.</li>
+            <li><b>Bağlantı ve Seri Port Yönetimi:</b> Windows üzerinde fiziksel olarak bulunmayan eski veya hayalet COM portlarının cihaz listesinde kalması engellendi; bağlantısı kaldırılan cihazların temizlenmesi ve seri port keşfi geliştirildi.</li>
+            <li><b>Cihaz Aktivasyon Altyapısı:</b> ProductID tabanlı merkezi cihaz yönetimi, aktivasyon kayıtları, audit geçmişi ve Teknik Hizmetler cihaz yönetim araçları için altyapı hazırlandı. Müşteri tarafındaki zorunlu aktivasyon kontrolü bu sürümde devre dışıdır.</li>
+            <li><b>Geliştirici Altyapısı ve Dokümantasyon:</b> Proje dokümantasyonu ve rapor kaynakları daha düzenli bir klasör yapısına taşındı; referans mimari çalışmaları genişletildi ve gelecekteki cihaz/API geliştirmeleri için teknik karşılaştırma ve yol haritası dokümanları eklendi.</li>
+        </ul>
+    </div>
+
+    <!-- İNGİLİZCE KISIM -->
+
+    <div lang="en">
+        <h2>Changelog - v3.7.1</h2>
+        <ul>
+            <li><b>Advanced Vibration Monitoring:</b> Accelerometer data is now evaluated independently across the X, Y, and Z axes. Live charts now provide Acceleration/Vibration views, per-axis values, and device mounting orientation information, while vibration safety evaluates the most critical axis.</li>
+            <li><b>ESC Motor Control & Safety:</b> Manual PWM reductions now use a controlled ramp instead of an immediate drop. Controlled Stop and Emergency Stop have been separated, and deactivating a device automatically locks motor control and drives PWM to the safe minimum level.</li>
+            <li><b>Faster Test History:</b> Large test archive scans now run in the background. Loading progress has been added to Analysis Dashboard, Data Logger, SyncHub, In-Flight, and related record screens, improving responsiveness when working with large numbers of test sessions.</li>
+            <li><b>Unit Settings & Limit Synchronization:</b> Selected measurement units are now immediately reflected in Limit Parameters, including both displayed values and unit labels. Unit preferences can also be saved and restored automatically in future sessions.</li>
+            <li><b>Dynamic Balancer Interface:</b> Improved layout, scrolling behavior, propeller visuals, and vibration trend readability throughout the 2-blade and 3-blade balancing workflows.</li>
+            <li><b>Interface & Multi-Monitor Reliability:</b> Fixed cases where warning or confirmation dialogs opening in the background or on another monitor could make the application appear locked. Dialog positioning and foreground activation are now more reliable across multi-monitor configurations.</li>
+            <li><b>Analysis & Usage Guides:</b> The RPM Curves guide has been expanded with steady-state analysis, filter parameters, formulas, confidence/R² information, and recommended operating ranges. Live chart values and accelerometer axis guidance have also been made easier to read.</li>
+        </ul>
+
+        <h3>Technical Service & Developers</h3>
+        <ul>
+            <li><b>Calibration Live Analog:</b> Analog sensor readings can now be viewed simultaneously in µV, mV, and V. Thrust and torque channels now include a ±1.25 V bipolar level indicator together with a compact Raw/Net display selector.</li>
+            <li><b>Device Diagnostics:</b> On supported firmware versions, Device Information now includes supply voltage, MCU temperature, and diagnostic status indicators for load cell, barometer, motor temperature, ESC temperature, CAN, and Balancer modules.</li>
+            <li><b>Connection & Serial-Port Management:</b> Improved serial device discovery by filtering stale or ghost COM ports that are no longer physically present and automatically removing devices that disappear from discovery.</li>
+            <li><b>Device Activation Infrastructure:</b> Added the underlying ProductID-based central device management system, activation registry, audit history, and Technical Services management tools. Customer-side activation enforcement remains disabled in this release.</li>
+            <li><b>Developer Infrastructure & Documentation:</b> Project documentation and report resources were reorganized into a more structured layout, reference architecture studies were expanded, and technical comparison and roadmap documents were added to support future device and API development.</li>
+        </ul>
+    </div>
+
 
 
     <!-- TÜRKÇE KISIM -->
