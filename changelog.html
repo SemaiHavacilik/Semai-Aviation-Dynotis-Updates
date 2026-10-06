@@ -1,6 +1,114 @@
 ﻿<html>
 <body style="font-family: 'Segoe UI', sans-serif;">
 
+
+    <!-- TÜRKÇE KISIM -->
+
+    <div lang="tr">
+        <h2>Yenilikler - v3.7.4</h2>
+        <ul>
+            <li><b>Motor ve ESC Güvenliği:</b> RPM, titreşim ve donanım limit kontrolleri güçlendirildi.</li>
+            <li><b>Analiz ve Dışa Aktarım:</b> Grafik ve veri dışa aktarma seçenekleri birleştirildi; örnekleme hızı, anlık/periyot ortalaması ve çoklu test dışa aktarımı desteği eklendi. RPM referansları ve grafik eksenleri geliştirildi.</li>
+
+            <li><b>RPM Referans Altyapısı:</b> Local/Online metadata ve Excel şablon desteği geliştirildi.</li>
+            <li><b>RPM Referansları:</b> Ct/Cq/Cp ↔ İtki/Tork veri tamamlama desteği eklendi.</li>
+            <li><b>İvme Grafikleri:</b> X/Y/Z eksenleri ayrı ayrı gösterilebilir hale getirildi.</li>
+            <li><b>Signed Sensör Verisi:</b> İtki/Tork yön bilgisi kayıt ve arayüze entegre edildi.</li>
+            <li><b>Toplu Dışa Aktarım:</b> Çoklu test export/silme ve profesyonel dosya adlandırması eklendi.</li>
+            <li><b>ST-251/ST-351 Sensörleri:</b> Ortam sıcaklığı ve basınç algılama hatası giderildi.</li>
+            <li><b>Maksimum RPM:</b> Kullanıcının güvenlik RPM limitini bilinçli tanımlaması zorunlu hale getirildi.</li>
+            <li><b>Excel/CSV Dışa Aktarım:</b> Uzun işlemlerde donma algısı azaltıldı; veri okuma, sütun ölçümü ve CSV dönüşümleri optimize edildi.</li>
+        </ul>
+
+        <h3>Teknik Servis ve Geliştiriciler</h3>
+        <ul>
+            <li><b>Cihaz Bağlantı Kayıtları:</b> USB cihaz bağlantıları ve sensör durumları otomatik olarak kayıt altına alınarak Teknik Servis üzerinden incelenebilir hale getirildi.</li>
+            <li><b>Güvenlik Verileri:</b> Test kayıtları ve cihaz bağlantı geçmişi tek ekranda birleştirildi; detaylı sensör ve log inceleme desteği eklendi.</li>
+            <li><b>Servis Modu:</b> Güvenlik limit ihlalleri motor durdurulmadan kayıt altına alınabilir hale getirildi; normal kullanım güvenlik davranışı korundu.</li>
+            <li><b>Koaksiyel Altyapı:</b> R1/R2/SYS kayıtları ortak DataLogger ve Evidence Vault altyapısına entegre edildi.</li>
+            <li><b>Kararlılık ve Yerelleştirme:</b> Kayıt, sensör, analiz ve bağlantı akışlarında iyileştirmeler yapıldı; TR/EN/ES/HI dil desteği güncellendi.</li>
+            <li><b>Koaksiyel Test ve Analiz:</b> R1, R2 ve sistem verileri için ortak kayıt, analiz ve karşılaştırma desteği geliştirildi; rotor dara ve yön düzeltme özellikleri eklendi.</li>
+            <li><b>Kalibrasyon Geliştirmeleri:</b> Kalibrasyon raporları geliştirildi, LUT tabloları cihaz kapasitesine göre optimize edilebilir hale getirildi ve validasyon akışı iyileştirildi.</li>
+            <li><b>SyncHub ve In-Flight:</b> Telemetri, bağlantı durumu, kayıt ve oturum yönetimi daha kararlı ve kullanışlı hale getirildi.</li>
+
+            <li><b>Analiz Arayüzü:</b> Analiz Modu ve rotor yapılandırma seçimleri daha sade ve kompakt hale getirildi.</li>
+            <li><b>Koaksiyel Yön Kontrolü:</b> R1/R2 itki ve tork yön düzeltme desteği eklendi.</li>
+            <li><b>LUT Optimizasyonu:</b> 32 noktayı aşan kalibrasyon tabloları cihaz kapasitesine uygun şekilde optimize edilebilir hale getirildi.</li>
+            <li><b>Koaksiyel DataLogger:</b> R1/R2/SYS kanalları ortak kayıt altyapısına taşındı.</li>
+            <li><b>Kalibrasyon Raporu:</b> Device ID, Load Cell bilgileri ve %1 FS PASS/FAIL kriteri eklendi.</li>
+            <li><b>Koaksiyel Rev 5.0:</b> Kanonik performans metrikleri ve test konfigürasyonu geliştirildi.</li>
+            <li><b>Koaksiyel Arayüz:</b> Sensör, çevre, baseline ve motor kontrol kartları yeniden düzenlendi.</li>
+            <li><b>Yerel Referanslar:</b> Referans düzenleme, silme ve T-Motor ürün önerisi desteği eklendi.</li>
+            <li><b>Donanım Limitleri:</b> ST-251 titreşim tavanı güncellendi ve limit kartlarına Donanım Maks değerleri eklendi.</li>
+            <li><b>In-Flight Kayıt:</b> Telemetri kayıt ve Excel dışa aktarım altyapısı geliştirildi.</li>
+            <li><b>In-Flight Arayüzü:</b> Telemetri, ekipman ve kayıt çalışma alanları daha kompakt hale getirildi.</li>
+            <li><b>İvme Ölçer Kartı:</b> Canlı X/Y/Z sensör değerleri ve örnekleme bilgileri geliştirildi.</li>
+            <li><b>Grafik Zoom/Pan:</b> Grafik eksen ayraçları görünür aralığa göre dinamik olarak yenilenir hale getirildi.</li>
+            <li><b>Kalibrasyon Prosedür Kodu:</b> Procedure değeri Load Cell seri numarasından otomatik türetilir hale getirildi.</li>
+            <li><b>Düzenlenebilir Procedure:</b> Kalibrasyon prosedür kodunun gerektiğinde manuel olarak değiştirilebilmesi sağlandı.</li>
+            <li><b>Kalibrasyon Validasyonu:</b> Net sonuç, ham ADC gösterimi ve toplamalı yük girişi geliştirildi.</li>
+            <li><b>Limit Uyarı Akışı:</b> Güvenlik limiti gerektiğinde ilgili panel otomatik olarak açılır hale getirildi.</li>
+            <li><b>ESC Durum Görünümü:</b> PWM durum satırı sabitlenerek arayüzdeki yükseklik değişimleri giderildi.</li>
+            <li><b>RPM Hesapları:</b> Tork ve Ct/Cq/Cp analizlerindeki hesaplama ve gösterim uyumsuzlukları giderildi.</li>
+            <li><b>Sensör Yön Göstergeleri:</b> Sensör yön ikonlarının cihaz ve veri durumuna göre doğru gösterilmesi sağlandı.</li>
+            <li><b>Basınç Analizi:</b> Basınç birimleri ve çevresel sensör profil işlemleri iyileştirildi.</li>
+        </ul>
+    </div>
+
+    <!-- İNGİLİZCE KISIM -->
+
+    <div lang="en">
+        <h2>Changelog - v3.7.4</h2>
+        <ul>
+            <li><b>Motor & ESC Safety:</b> RPM, vibration, and hardware limit controls have been strengthened.</li>
+            <li><b>Analysis & Export:</b> Chart and data export options have been unified, with support for sampling rate selection, instantaneous/period-average output, and multi-test export. RPM references and chart axes have also been improved.</li>
+
+            <li><b>RPM Reference Infrastructure:</b> Local/Online metadata and Excel template support have been improved.</li>
+            <li><b>RPM References:</b> Ct/Cq/Cp ↔ Thrust/Torque data enrichment support has been added.</li>
+            <li><b>Acceleration Charts:</b> X/Y/Z axes can now be displayed separately.</li>
+            <li><b>Signed Sensor Data:</b> Thrust/Torque direction information has been integrated into recording and the interface.</li>
+            <li><b>Batch Export:</b> Multi-test export/deletion and professional file naming have been added.</li>
+            <li><b>ST-251/ST-351 Sensors:</b> Ambient temperature and pressure detection issues have been resolved.</li>
+            <li><b>Maximum RPM:</b> Users are now required to explicitly define the safety RPM limit.</li>
+            <li><b>Excel/CSV Export:</b> Perceived freezing during long operations has been reduced, with optimized data reading, column sizing, and CSV conversion.</li>
+        </ul>
+
+        <h3>Technical Service & Developers</h3>
+        <ul>
+            <li><b>Device Connection Records:</b> USB device connections and sensor status can now be automatically recorded and reviewed from Technical Services.</li>
+            <li><b>Security Data:</b> Test records and device connection history are now combined in a unified interface with detailed sensor and log inspection.</li>
+            <li><b>Service Mode:</b> Safety-limit violations can now be recorded without stopping the motor, while normal-mode safety behavior remains unchanged.</li>
+            <li><b>Coaxial Infrastructure:</b> R1/R2/SYS recordings are now integrated with the shared DataLogger and Evidence Vault infrastructure.</li>
+            <li><b>Reliability & Localization:</b> Improved recording, sensor, analysis, and connection workflows, with updated TR/EN/ES/HI language support.</li>
+            <li><b>Coaxial Testing & Analysis:</b> Improved shared recording, analysis, and comparison for R1, R2, and system data, with rotor tare and polarity controls.</li>
+            <li><b>Calibration Improvements:</b> Enhanced calibration reports, optimized oversized LUT tables for device capacity, and improved validation workflows.</li>
+            <li><b>SyncHub & In-Flight:</b> Improved telemetry, connection status, recording, and session reliability.</li>
+
+            <li><b>Analysis Interface:</b> Analysis Mode and rotor configuration controls have been simplified and made more compact.</li>
+            <li><b>Coaxial Polarity Control:</b> Added R1/R2 thrust and torque direction correction support.</li>
+            <li><b>LUT Optimization:</b> Calibration tables exceeding 32 points can now be optimized for device capacity.</li>
+            <li><b>Coaxial DataLogger:</b> R1/R2/SYS channels have been migrated to the shared recording infrastructure.</li>
+            <li><b>Calibration Report:</b> Added Device ID, Load Cell information, and a 1% FS PASS/FAIL criterion.</li>
+            <li><b>Coaxial Rev 5.0:</b> Canonical performance metrics and test configuration have been improved.</li>
+            <li><b>Coaxial Interface:</b> Sensor, environment, baseline, and motor-control cards have been reorganized.</li>
+            <li><b>Local References:</b> Added reference editing, deletion, and T-Motor product suggestion support.</li>
+            <li><b>Hardware Limits:</b> Updated the ST-251 vibration ceiling and added Hardware Max values to limit cards.</li>
+            <li><b>In-Flight Recording:</b> Improved telemetry recording and Excel export infrastructure.</li>
+            <li><b>In-Flight Interface:</b> Telemetry, equipment, and recording workspaces have been made more compact.</li>
+            <li><b>Accelerometer Card:</b> Improved live X/Y/Z sensor values and sampling information.</li>
+            <li><b>Chart Zoom/Pan:</b> Axis tick spacing now updates dynamically according to the visible chart range.</li>
+            <li><b>Calibration Procedure Code:</b> The Procedure value can now be automatically derived from the Load Cell serial number.</li>
+            <li><b>Editable Procedure:</b> Calibration procedure codes can now be manually overridden when required.</li>
+            <li><b>Calibration Validation:</b> Improved net results, raw ADC display, and cumulative load entry.</li>
+            <li><b>Limit Warning Flow:</b> The relevant panel now opens automatically when safety-limit configuration is required.</li>
+            <li><b>ESC Status View:</b> Stabilized the PWM status row to prevent interface height changes.</li>
+            <li><b>RPM Calculations:</b> Fixed calculation and display inconsistencies in torque and Ct/Cq/Cp analysis.</li>
+            <li><b>Sensor Direction Indicators:</b> Improved direction-icon visibility based on device and sensor-data state.</li>
+            <li><b>Pressure Analysis:</b> Improved pressure units and environmental sensor profile handling.</li>
+        </ul>
+    </div>
+
+
     <!-- TÜRKÇE KISIM -->
 
     <div lang="tr">
